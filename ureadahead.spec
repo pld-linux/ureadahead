@@ -13,6 +13,7 @@ URL:		https://launchpad.net/ureadahead
 BuildRequires:	e2fsprogs-devel >= 1.41
 BuildRequires:	libblkid-devel >= 2.16
 BuildRequires:	libnih-devel >= 1.0.0
+BuildRequires:	pkgconfig
 Requires:	upstart >= 0.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
